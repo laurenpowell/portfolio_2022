@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div name='about' className=' w-full h-screen flex grow pt-16 bg-[#1C0934] text-gray-300'>
+        <div name='about' className=' w-full h-screen flex grow pt-32 pb-20 bg-[#1C0934] text-gray-300 cursor-default '>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full flex  items-center'>
                     <div className='text-left  pb-8 pl-4'>
@@ -28,7 +28,7 @@ const About = () => {
                                 <span className='pl-2 '>Javascript and Python </span>
                             </p>
                             <p>
-                                <span className='font-bold underline'>Favorite Framework:</span>
+                                <span className='font-bold underline'>Favorite Frameworks:</span>
                                 <span className='pl-2 '>React and Django</span>
                             </p>
 
@@ -36,19 +36,19 @@ const About = () => {
                     </div>
                     <div className='text-lg md:text-left md:text-xl '>
                         <div className='flex flex-col'>
-                            <div className='grid grid-cols-2 gap-2 items-center'>
+                            <div className='grid grid-cols-2 gap-2 items-center '>
                                 <div>
                                     <p className=' text-center text-2xl font-bold border-b-2 border-green-400'> Likes </p>
-                                    <ul className='pl-8 pt-2 list-disc'> 
+                                    <ul className='sm:pl-8 pt-2 sm:list-disc '> 
                                         <li> Coding </li>
-                                        <li> Problem Solving </li>
                                         <li> Learning </li>
                                         <li> Gaming </li>
+                                        <li> Problem Solving </li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className=' text-center text-2xl font-bold border-b-2 border-green-400'> Dislikes </p>
-                                    <ul className='pl-8 pt-2 list-disc'> 
+                                    <ul className='sm:pl-8 pt-2 sm:list-disc'> 
                                         <li> Disorganization </li>
                                         <li> 90° weather</li>
                                         <li> Interviews  </li>

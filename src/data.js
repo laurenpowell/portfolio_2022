@@ -33,6 +33,6 @@ export const projects = [
         "Simple chat app created using React. Server is hosted on Heroku.",
       image: "../assets/ChatJunction.gif",
       link: "https://chatjunction.netlify.app/",
-      codeLink: "",
+      codeLink: "https://github.com/laurenpowell/chatJunction",
     },
 ];

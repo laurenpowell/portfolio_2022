@@ -13,10 +13,10 @@ const Projects = () => {
                 
                 <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-4 text-center py-8'>
                     {projects.map((project) => (
-                        <div className="group  w-96 flex justify-center items-center mx-auto relative cursor-pointer border-4 border-green-400 ">
+                        <div className="group  sm:w-96 flex justify-center items-center mx-auto relative cursor-pointer border-4 border-green-400 ">
                             <img 
                                 key={project.image}
-                                className='object-contain'
+                                className='object-cover'
                                 src={project.image}
                                 alt="" 
                                 href="#"

@@ -8,10 +8,10 @@ import {
 const Home = () => {
 
   return (
-    <div name='home' className=' w-full h-screen justify-center items-center bg-[#1C0934]'>
+    <div name='home' className=' min-w-full h-screen justify-center items-center  bg-[#1C0934]'>
         {/* Home Container */}
         
-        <div className=' mx-auto px-8 flex flex-col justify-center items-center h-full'>
+        <div className=' mx-auto flex flex-col justify-center items-center h-full'>
             <h1 className=' inline-flex  text-4xl sm:text-5xl font-bold justify-center items-center text-green-400 px-2'>
                 Hello There  <MdOutlineWavingHand className='ml-2' />
             </h1>
@@ -22,7 +22,7 @@ const Home = () => {
             <h1 className='text-2xl sm:text-3xl font-bold py-2 text-white'>
                 Welcome to my portfolio.
             </h1>
-            <p className='text-white pb-4 '>
+            <p className='text-white text-center pb-4 '>
                 Please feel free to look around, or visit my other pages.
             </p>
 
